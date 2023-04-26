@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->integer('id_bill');
             $table->integer('id_product');
+            $table->integer('id_option');
             $table->integer('quantity')->default(100);
         });
     }
