@@ -11,10 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('product_option', function (Blueprint $table) {
-            $table->integer('id_product_option');
-            $table->integer('id_product');
-            $table->integer('id_option');
+        Schema::create('carts', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->integer('user_id');
+            $table->integer('id_voucher')->nullable();
+
+            $table->timestamps(); // chưa có mặc định thời gian
             
         });
     }
@@ -24,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('product_option');
+        Schema::dropIfExists('carts');
     }
 };
