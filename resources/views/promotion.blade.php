@@ -1,3 +1,5 @@
+@extends('dashboard')
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,4 +12,6 @@
     <h1>Promotion's Page is here</h1>
 </body>
 @yield('content')
+@endsection
+
 </html>

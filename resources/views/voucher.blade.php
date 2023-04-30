@@ -1,4 +1,7 @@
+@extends('dashboard')
+@section('content')
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,5 +13,6 @@
     <h1>Voucher's page is here</h1>
 </body>
 @yield('content')
+@endsection
 
 </html>

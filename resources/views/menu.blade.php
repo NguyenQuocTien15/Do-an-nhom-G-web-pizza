@@ -1,3 +1,5 @@
+@extends('dashboard')
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +9,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>menu'page</h1>
+    <h1>menu'page is here</h1>
 </body>
 @yield('content')
+@endsection
+
 </html>
