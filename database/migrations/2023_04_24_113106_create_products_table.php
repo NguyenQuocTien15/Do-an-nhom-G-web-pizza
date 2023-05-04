@@ -20,6 +20,8 @@ return new class extends Migration
             $table->integer('price');
             $table->integer('count_buy')->default(0);
             $table->integer('category_id');
+            $table->timestamp('created_at');
+
             
         });
     }

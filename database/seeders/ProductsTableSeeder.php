@@ -24,7 +24,7 @@ class ProductsTableSeeder extends Seeder
 ', 'count_buy' => '11', 'category_id' => 5,], ['name' => 'Pizza Bò &amp; Tôm Nướng Kiểu Mỹ - Surf &amp; Turf
 ', 'image' => 'Surf-turf-thong-tin.jpg',  'quantity' => '100', 'description' => 'Xốt Cà Chua, Xốt Phô Mai, Phô Mai Mozzarella, Tôm, Thịt Bò Mexico, Cà Chua, Hành Tây
 ', 'price' => '209000
-', 'count_buy' => '64', 'category_id' => 3,], ['name' => 'Pizza Bò Mê-Hi-Cô Thượng Hạng - Prime Beef
+', 'count_buy' => '68', 'category_id' => 3,], ['name' => 'Pizza Bò Mê-Hi-Cô Thượng Hạng - Prime Beef
 ', 'image' => 'Prime-beef-thong-tin.jpg',  'quantity' => '100', 'description' => 'Xốt phô mai, Xốt cà chua, bò viên kiểu Ý, thịt bò Mexico, hành tây, cà chua, phô mai Mozzarella
 ', 'price' => '209000
 ', 'count_buy' => '53', 'category_id' => 3,], ['name' => 'Pizza Rau Củ Thập Cẩm - Veggie Mania
@@ -63,7 +63,7 @@ class ProductsTableSeeder extends Seeder
 ', 'count_buy' => '60', 'category_id' => 2,], ['name' => 'Pizza Phô Mai Hảo Hạng - Cheese Mania
 ', 'image' => 'Cheese-mania-detail.jpg',  'quantity' => '100', 'description' => 'Xốt Cà Chua, phô Mai Mozzarella
 ', 'price' => '159000
-', 'count_buy' => '52', 'category_id' => 6,], ['name' => 'Pizza Xúc Xích Ý Truyền Thống - Pepperoni Feast
+', 'count_buy' => '69', 'category_id' => 6,], ['name' => 'Pizza Xúc Xích Ý Truyền Thống - Pepperoni Feast
 ', 'image' => 'Pepperoni-feast-thong-tin.jpg',  'quantity' => '100', 'description' => 'Xốt Cà Chua, Phô Mai Mozzarella, Xúc Xích Pepperoni
 ', 'price' => '209000
 ', 'count_buy' => '54', 'category_id' => 5,], ['name' => 'Pizza Gà Phô Mai Thịt Heo Xông Khói - Cheesy Chicken Bacon
@@ -85,12 +85,12 @@ class ProductsTableSeeder extends Seeder
 
 
             ['name' => 'Khai Vị Tổng Hợp
-', 'image' => 'Khai-V%E1%BB%8B-T%E1%BB%95ng-H%E1%BB%A3p-PC-nen-xam_360X240px.jpg',  'quantity' => '100', 'description' => '2 miếng Cánh gà nướng BBQ, 3 miếng Xúc Xích Xông Khói Đút Lò và Khoai tây phô mai đút lò
+', 'image' => 'Khai-vi.jpg',  'quantity' => '100', 'description' => '2 miếng Cánh gà nướng BBQ, 3 miếng Xúc Xích Xông Khói Đút Lò và Khoai tây phô mai đút lò
 ', 'price' => '99000
 ', 'count_buy' => '4', 'category_id' => 10,], ['name' => 'Gà Viên Phô Mai Đút Lò
 ', 'image' => 'MENU-PC-G%C3%A0-Vi%C3%AAn-Ph%C3%B4-Mai-%C4%90%C3%BAt-L%C3%B2.jpg',  'quantity' => '100', 'description' => 'Gà Viên Popcorn, Thịt Heo Xông Khói, Phô Mai Mozarella, Xốt Pizza
 ', 'price' => '69000
-', 'count_buy' => '68', 'category_id' => 10,], ['name' => 'Bánh Mì Nướng Phô Mai
+', 'count_buy' => '5', 'category_id' => 10,], ['name' => 'Bánh Mì Nướng Phô Mai
 ', 'image' => 'banh-mi-pho-mai.jpg',  'quantity' => '100', 'description' => 'Bánh Mì, Bơ, Phô Mai, Bột Tỏi, Xốt Pizza
 ', 'price' => '59000
 ', 'count_buy' => '0', 'category_id' => 12,], ['name' => 'Bánh Mì Nướng Bơ Tỏi
@@ -105,7 +105,7 @@ class ProductsTableSeeder extends Seeder
 ', 'count_buy' => '18', 'category_id' => 10,], ['name' => 'Xúc Xích Xông Khói Đút Lò (8 miếng)
 ', 'image' => 'MENU-MB_Xu%CC%81c-Xi%CC%81ch-Xo%CC%82ng-Kho%CC%81i-%C4%90u%CC%81t-Lo%CC%80.jpg',  'quantity' => '100', 'description' => 'Xúc Xích Xông Khói, Xốt BBQ
 ', 'price' => '89000
-', 'count_buy' => '69', 'category_id' => 11,], ['name' => 'Xúc Xích Xông Khói Đút Lò (4 miếng)
+', 'count_buy' => '4', 'category_id' => 11,], ['name' => 'Xúc Xích Xông Khói Đút Lò (4 miếng)
 ', 'image' => 'MENU-MB_Xu%CC%81c-Xi%CC%81ch-Xo%CC%82ng-Kho%CC%81i-%C4%90u%CC%81t-Lo%CC%80+-+4.jpg',  'quantity' => '100', 'description' => 'Xúc Xích Xông Khói, Xốt BBQ
 ', 'price' => '49000
 ', 'count_buy' => '62', 'category_id' => 11,], ['name' => 'Cánh Gà BBQ Kiểu Mỹ (6 miếng)
