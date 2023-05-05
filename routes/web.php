@@ -48,3 +48,8 @@ Route::prefix('admin')->group(function () {
     // Sửa voucher
     Route::post('/editvoucher/{id_voucher}', [VoucherController::class, 'update'])->name('sua-voucher');
 });
+// Test 123123123
+Route::get('/tracking/test', [BillController::class, 'index']);
+
+
+
