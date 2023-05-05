@@ -1,7 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BillController;
 use App\Http\Controllers\ProductController;
+use App\Models\Bill;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,4 +20,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('home', [ProductController::class, 'index']);
+
+// Route::get('/welcome', [ProductController::class, 'index']);
+
+// Tâm An
+Route::get('/tracking', [BillController::class, 'index']);
+Route::get('/tracking/{slug}/{id_status}', [BillController::class, 'show'])->name('tracking_custom');
+
+
+

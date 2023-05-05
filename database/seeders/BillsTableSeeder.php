@@ -32,6 +32,48 @@ class BillsTableSeeder extends Seeder
                 ['id_user'=>'14','id_status'=>'5','id_voucher'=>2005,'address'=>'Linh đông',],
                 ['id_user'=>'15','id_status'=>'6','id_voucher'=>2006,'address'=>'Linh đông',],
                 
+
+                
+
+                ['id_user'=>'10','id_status'=>'1','id_voucher'=>2001,'address'=>'Linh đông',],
+
+                ['id_user'=>'10','id_status'=>'2','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'2','id_voucher'=>2001,'address'=>'Linh đông',],
+
+                ['id_user'=>'10','id_status'=>'3','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'3','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'3','id_voucher'=>2001,'address'=>'Linh đông',],
+
+                ['id_user'=>'10','id_status'=>'4','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'4','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'4','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'4','id_voucher'=>2001,'address'=>'Linh đông',],
+
+                ['id_user'=>'10','id_status'=>'5','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'5','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'5','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'5','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'5','id_voucher'=>2001,'address'=>'Linh đông',],
+
+                ['id_user'=>'10','id_status'=>'6','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'6','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'6','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'6','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'6','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'6','id_voucher'=>2001,'address'=>'Linh đông',],
+
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
+                ['id_user'=>'10','id_status'=>'7','id_voucher'=>2001,'address'=>'Linh đông',],
             ]
         );
     }
