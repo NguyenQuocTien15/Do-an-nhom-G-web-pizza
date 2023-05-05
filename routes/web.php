@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('home', [ProductController::class, 'index']);
+//yffyfyfyyffy
