@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    {{ $list_bills }}
+    {{-- {{ $list_bills }} --}}
 
     {{-- bỏ nó vào khung --}}
     <div class="container">
