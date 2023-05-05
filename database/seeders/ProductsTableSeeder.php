@@ -16,7 +16,7 @@ class ProductsTableSeeder extends Seeder
         DB::table('products')->insert([
             // pizza
             ['name' => 'Pizza Lạp Xưởng Xốt Trứng Muối Mayonnaise - Saigon Mania
-', 'image' => 'Pizza-lap-xuong-1.jpg',  'quantity' => '100', 'description' => 'Lạp xưởng tươi, xốt trứng muối, xốt Mayonnaise dịu ngọt, ruốc khô (tép khô), bắp ngọt, hành lá, phô mai Mozzarella, xốt cà chua.
+', 'image' => 'https://pizzalove.vn/wp-content/uploads/2020/03/pizza-ngon-tai-hai-phong.jpg',  'quantity' => '100', 'description' => 'Lạp xưởng tươi, xốt trứng muối, xốt Mayonnaise dịu ngọt, ruốc khô (tép khô), bắp ngọt, hành lá, phô mai Mozzarella, xốt cà chua.
 ', 'price' => '209000
 ', 'count_buy' => '36', 'category_id' => 2,], ['name' => 'Pizza Thập Cẩm Thượng Hạng - Extravaganza
 ', 'image' => 'Extravaganza-thong-tin.jpg',  'quantity' => '100', 'description' => 'Xốt Cà Chua, Phô Mai Mozzarella, Xúc Xích Pepperoni, Thịt Dăm Bông, Xúc Xich Ý, Thịt Bò Viên, Ớt Chuông Xanh, Nấm Mỡ, Hành Tây, Ô-liu
