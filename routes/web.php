@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\VoucherController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BillController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/tracking', [BillController::class, 'index']);
+Route::get('/tracking/{slug}/{id_status}', [BillController::class, 'show'])->name('tracking_custom');
 
 // trang của user
 Route::prefix('/user')->group(function () {
