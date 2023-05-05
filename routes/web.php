@@ -27,7 +27,7 @@ Route::get('/', function () {
 Route::get('/tracking', [BillController::class, 'index']);
 Route::get('/tracking/{slug}/{id_status}', [BillController::class, 'show'])->name('tracking_custom');
 
-// Test
+// Test 123123123
 Route::get('/tracking/test', [BillController::class, 'index']);
 
 
