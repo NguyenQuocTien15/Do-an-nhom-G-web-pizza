@@ -6,7 +6,7 @@
     @foreach($products as $product)
         <div class="col-xs-18 col-sm-6 col-md-3">
             <div class="thumbnail">
-            <img src="{{asset('images/'.$product->image)}}" width="100" height="100" class="img-responsive" alt="">
+            <img src="{{asset('images/'.$product->image)}}" width="200" height="100" class="img-responsive" alt="">
                 <div class="caption">
                     <h4>{{ $product->name }}</h4>
                     <p>{{ $product->description }}</p>
@@ -18,5 +18,5 @@
         </div>
     @endforeach
 </div>
-    
+
 @endsection
